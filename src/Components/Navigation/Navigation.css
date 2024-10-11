@@ -1,0 +1,35 @@
+:root {
+    --white: white;
+  }
+.navbar {
+    background: linear-gradient(to right, #021347, #004272, #004272);
+    
+}
+.navbar-nav .nav-link.active{
+    color: var(--white);
+    font-weight: 700;
+  }
+.navbar .navbar-brand {
+    color: #fff;
+}
+.navbar .navbar-brand:hover {
+    color: #fff;
+}
+
+  .nav-item .nav-link {
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff
+    
+  }
+  .nav-item .nav-link:hover {
+    transform: scale(1.1);
+    color: #fff;
+  }
+  /* .nav-item .nav-link::selection {
+    color: #fff;
+  } */
+  .dropdown-item {
+    font-size: 13px;
+    
+  }
